@@ -1,5 +1,11 @@
+import Navbar from "./components/layout/navbar";
+
 const App = () => {
-    return <main>Skribe</main>;
+    return (
+        <main>
+            <Navbar />
+        </main>
+    );
 };
 
 export default App;
