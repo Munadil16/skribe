@@ -1,26 +1,26 @@
 const UnderstandSkribe = () => {
     return (
-        <section className="flex items-center px-18 gap-12 py-20">
+        <section className="flex flex-col items-center justify-between gap-12 px-8 py-20 lg:flex-row lg:px-18">
             <article className="flex flex-col gap-7">
-                <div className="flex flex-col w-[406px] gap-2">
-                    <p className="text-xs w-fit font-medium border border-[#FF7A00] py-[10px] px-3 rounded-3xl">
+                <div className="flex flex-col gap-4 lg:w-[406px] lg:gap-2">
+                    <p className="w-fit rounded-3xl border border-[#FF7A00] px-3 py-[10px] text-xs font-medium">
                         Understand Skribe as
                     </p>
 
-                    <h3 className="font-bold text-3xl text-[#4A4A4A] text-balance">
+                    <h3 className="text-3xl font-bold text-balance text-[#4A4A4A]">
                         Make PR an essential part of your marketing mix
                     </h3>
 
-                    <p className="text-xl text-[#333333] leading-none text-balance">
+                    <p className="text-balance text-[#333333] sm:text-xl sm:leading-none">
                         Helping startups and entreprises get media coverage on
-                        their own.Helping agencies serve their clients better.
+                        their own. Helping agencies serve their clients better.
                     </p>
                 </div>
 
                 <div className="flex flex-col gap-2">
                     <div className="flex items-center gap-2">
                         <img
-                            className="w-8 h-8"
+                            className="h-8 w-8"
                             src="/landing-page/understand-skribe/checkmark.png"
                             alt="Checkmark icon"
                         />
@@ -33,7 +33,7 @@ const UnderstandSkribe = () => {
 
                     <div className="flex items-center gap-2">
                         <img
-                            className="w-8 h-8"
+                            className="h-8 w-8"
                             src="/landing-page/understand-skribe/checkmark.png"
                             alt="Checkmark icon"
                         />
@@ -46,46 +46,46 @@ const UnderstandSkribe = () => {
                 </div>
 
                 <button
-                    className="bg-[#002B5B] text-[#E0E0E0] font-extrabold text-xl w-fit py-3 px-7 rounded-md"
+                    className="w-fit rounded-md bg-[#002B5B] px-7 py-3 text-xl font-extrabold text-[#E0E0E0]"
                     type="button"
                 >
                     Try it out
                 </button>
             </article>
 
-            <article className="flex flex-wrap gap-4 w-[759px]">
-                <div className="bg-[#F1F1E6] border border-black/30 rounded-[40px] p-6 w-[338px] h-[132px]">
-                    <p className="text-[#002B5B] font-semibold text-2xl">
+            <article className="flex flex-wrap gap-4 lg:w-[759px]">
+                <div className="grow-1 rounded-[40px] border border-black/30 bg-[#F1F1E6] p-6 sm:h-[132px] lg:w-[338px] xl:grow-0">
+                    <p className="text-2xl font-semibold text-[#002B5B]">
                         PR Agencies
                     </p>
-                    <p className="text-[#002B5B] w-[188px]">
+                    <p className="text-[#002B5B] sm:w-[188px]">
                         Build multiple List for you
                     </p>
                 </div>
 
-                <div className="bg-[#F1F1E6] flex-1 border border-black/30 p-6 rounded-l-[40px]">
-                    <p className="text-[#002B5B] font-semibold text-2xl">
+                <div className="grow-1 rounded-[40px] border border-black/30 bg-[#F1F1E6] p-6 xl:rounded-none xl:rounded-l-[40px]">
+                    <p className="text-2xl font-semibold text-[#002B5B]">
                         In house PR Teams
                     </p>
-                    <p className="text-[#002B5B] w-[281px]">
+                    <p className="text-[#002B5B] sm:w-[281px]">
                         Build & nurture relationships with journalists
                     </p>
                 </div>
 
-                <div className="bg-[#F1F1E6] border border-black/30 rounded-[40px] w-[434px] h-[132px] p-6">
-                    <p className="text-[#002B5B] font-semibold text-2xl">
+                <div className="grow-1 rounded-[40px] border border-black/30 bg-[#F1F1E6] p-6 sm:h-[132px] lg:w-[434px] xl:grow-0">
+                    <p className="text-2xl font-semibold text-[#002B5B]">
                         Marketing Heads
                     </p>
-                    <p className="text-[#002B5B] w-[236px]">
+                    <p className="text-[#002B5B] sm:w-[236px]">
                         Invest in earned media to supercharge reach and ROIs
                     </p>
                 </div>
 
-                <div className="bg-[#F1F1E6] flex-1 border border-black/30 p-6 rounded-l-[40px]">
-                    <p className="text-[#002B5B] font-semibold text-2xl">
+                <div className="grow-1 rounded-[40px] border border-black/30 bg-[#F1F1E6] p-6 xl:rounded-none xl:rounded-l-[40px]">
+                    <p className="text-2xl font-semibold text-[#002B5B]">
                         Founders
                     </p>
-                    <p className="text-[#002B5B] w-[243px]">
+                    <p className="text-[#002B5B] sm:w-[243px]">
                         Monitor your brand and your competitor coverage
                     </p>
                 </div>
