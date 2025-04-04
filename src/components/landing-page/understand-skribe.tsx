@@ -54,7 +54,7 @@ const UnderstandSkribe = () => {
             </article>
 
             <article className="flex flex-wrap gap-4 lg:w-[759px]">
-                <div className="grow-1 rounded-[40px] border border-black/30 bg-[#F1F1E6] p-6 sm:h-[132px] lg:w-[338px] xl:grow-0">
+                <div className="grow-1 rounded-[40px] border border-black/30 bg-[#F1F1E6] p-6 sm:h-[132px] lg:w-[338px]">
                     <p className="text-2xl font-semibold text-[#002B5B]">
                         PR Agencies
                     </p>
@@ -72,7 +72,7 @@ const UnderstandSkribe = () => {
                     </p>
                 </div>
 
-                <div className="grow-1 rounded-[40px] border border-black/30 bg-[#F1F1E6] p-6 sm:h-[132px] lg:w-[434px] xl:grow-0">
+                <div className="grow-1 rounded-[40px] border border-black/30 bg-[#F1F1E6] p-6 sm:h-[132px] lg:w-[434px]">
                     <p className="text-2xl font-semibold text-[#002B5B]">
                         Marketing Heads
                     </p>
