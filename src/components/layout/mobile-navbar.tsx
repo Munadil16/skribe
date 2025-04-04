@@ -15,7 +15,7 @@ const MobileNavbar = () => {
             </button>
 
             {isMenuOpen && (
-                <ul className="absolute top-20 left-0 flex h-dvh w-full flex-col gap-5 bg-[#EDF5FF] p-8 text-xl font-medium text-[#002B5B]">
+                <ul className="absolute top-20 left-0 z-50 flex h-dvh w-full flex-col gap-5 bg-[#EDF5FF] p-8 text-xl font-medium text-[#002B5B]">
                     <li className="cursor-pointer">Home</li>
                     <li className="cursor-pointer">Product</li>
                     <li className="cursor-pointer">Pricing</li>
